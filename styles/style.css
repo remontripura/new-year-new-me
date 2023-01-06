@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header Banner Style */
+.header-banner{
+    background-image: url('../images/banner/banner3.png');
+    padding: 200px 200px;
+    text-align: right;
+}
+.banner-items{
+    margin-left: 600px;
+}
+.banner-title{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+    font-family: inter;
+}
+.banner-description{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.primary-btn{
+    padding: 8px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    background:#FFFFFF;
+    border: none;
+
+}
+.primary-btn a{
+    color: green;
+    text-decoration: none;
+}
+/* Section */
+section{
+    margin-top:150px;
+}
