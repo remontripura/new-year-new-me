@@ -47,7 +47,7 @@ section{
     margin-left: 200px;
     gap: 30px;
 }
-.description-title{
+.primary-title{
     font-family: inter;
     font-size: 50px;
     font-weight: 700px;
@@ -58,4 +58,21 @@ section{
 }
 .descriptions ul li{
     list-style: none;
+}
+/* Plan Style */
+.plan{
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+}
+.plan-items{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.plan-title{
+    font-weight: 700px;
+    font-family: inter;
+    margin: 10px 0;
 }
