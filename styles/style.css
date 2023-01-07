@@ -76,3 +76,32 @@ section{
     font-family: inter;
     margin: 10px 0;
 }
+/* Contact Style */
+.contact{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px 650px 50px 50px; 
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),  url('../images/watch.png');
+    /* background-repeat: no-repeat;
+    background-position: left, right; */
+}
+
+.contact-title{
+    font-family: inter;
+    font-weight: bold;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.contact-btn{
+    padding: 10px 15px;
+    margin: 8px 0;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+.contact-btn a{
+    color: #FFFFFF;
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
