@@ -53,6 +53,9 @@ section{
     font-weight: 700px;
     margin-bottom: 20px;
 }
+.descriptions .color{
+    color: rgb(37, 246, 37);
+}
 .descriptions-description{
     margin-bottom: 20px;
 }
@@ -75,6 +78,17 @@ section{
     font-weight: 700px;
     font-family: inter;
     margin: 10px 0;
+}
+
+/* Capsoul Blog Style */
+.capsoul{
+    background-color: azure;
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
 }
 /* Contact Style */
 .contact{
