@@ -78,10 +78,10 @@ section{
 }
 /* Contact Style */
 .contact{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 150px 200px;
     padding: 50px 650px 50px 50px; 
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),  url('../images/watch.png');
+    border-radius: 5px;
 }
 
 .contact-title{
@@ -108,9 +108,7 @@ section{
     display: flex;
     background: #151414;
     color: #FFFFFF;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 100px;
+    padding: 150px 200px;
     gap: 200px;
 }
 
