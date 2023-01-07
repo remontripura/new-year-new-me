@@ -82,8 +82,6 @@ section{
     margin-right: 200px;
     padding: 50px 650px 50px 50px; 
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),  url('../images/watch.png');
-    /* background-repeat: no-repeat;
-    background-position: left, right; */
 }
 
 .contact-title{
@@ -104,4 +102,34 @@ section{
     color: aqua;
     text-decoration: none;
     font-weight: bold;
+}
+/* Footer Style */
+.footer{
+    display: flex;
+    background: #151414;
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 100px;
+    gap: 200px;
+}
+
+.footer-title{
+ font-weight: 700;
+ font-size: 35px;
+ font-family: inter;
+}
+.footer-title, .footer-description, .footer-contact, .footer-email{
+    margin-bottom: 15px;
+}
+.footer-email{
+    padding: 10px;
+    background-color: azure;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+.footer .primary-btn{
+    background-color: #005FAC;
+    color:#FFFFFF;
 }
